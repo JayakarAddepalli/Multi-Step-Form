@@ -5,9 +5,6 @@ This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and B
 ![Laptop-resolution](https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/97a4f2e9-7078-4196-813b-55b745c908e5)
 
 
-<img src = 'https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/966e0ef4-8aef-439d-80c6-8015bc7fec90' alt='Mobile-resolution''>
-
-
 
 ![Mobile-resolution](https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/966e0ef4-8aef-439d-80c6-8015bc7fec90)
 
