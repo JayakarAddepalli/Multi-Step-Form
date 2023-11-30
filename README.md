@@ -2,7 +2,7 @@
 
 This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and Bootstrap. It is fully responsive in any devices.
 
-<img src='https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/blob/main/Laptop-resolution.png' alt='Laptop-Resolution'>
+<img src='../Repostries/Multi-Step-Form/blob/main/Laptop-resolution.png' alt='Laptop-Resolution'>
 
 
 <img src='https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/blob/main/Mobile-resolution.jpg' alt='Mobile-Resolution'>
