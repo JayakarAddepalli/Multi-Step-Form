@@ -2,9 +2,11 @@
 
 This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and Bootstrap. It is fully responsive in any devices.
 
+<img src=''>
+
 <ul>
-  <li>You can cmplete each step of the sequence</li>
-  <li>You can go back to a previous step to update their selections</li>
+  <li>You can able to complete each step of the sequence</li>
+  <li>You can able to go back to a previous step to update their selections</li>
   <li>See a summary of their selections on the final step and confirm their order</li>
   <li>View the optimal layout for the interface depending on their device's screen size</li>
   <li>See hover and focus states for all interactive elements on the page</li>
