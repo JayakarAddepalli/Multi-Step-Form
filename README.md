@@ -2,10 +2,13 @@
 
 This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and Bootstrap. It is fully responsive in any devices.
 
-<img src='../Repositiories/Multi-Step-Form/blob/main/Laptop-resolution.png' alt='Laptop-Resolution'>
+![Laptop-resolution](https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/97a4f2e9-7078-4196-813b-55b745c908e5)
 
 
-<img src='https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/blob/main/Mobile-resolution.jpg' alt='Mobile-Resolution'>
+
+![Mobile-resolution](https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/966e0ef4-8aef-439d-80c6-8015bc7fec90)
+
+
 
 <ul>
   <li>You can able to complete each step of the sequence</li>
