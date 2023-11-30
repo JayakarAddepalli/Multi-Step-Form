@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AddOns</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./addons.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+
+    <div class="LG_AO_RS">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <section class="card w-75 d-flex flex-row justify-content-between align-items-center p-2">
+                <div class="w-25">
+                    <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+                    <div class="in-in-div1 d-flex flex-column justify-content-evenly bg-transparent">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an1" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 1</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">YOUR INFO</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an2" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold  bg-transparent text-white text-decoration-none">2</button>
+                            <div class="d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 2</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SELECT PLAN</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an3" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none">3</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 3</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">ADD-ONS</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an4" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 4</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SUMMARY</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-3 mx-5 d-flex flex-column justify-content-center align-items-center personalinfo1 bg-white">
+                    <div class="innerblock1 bg-transparent d-flex flex-column justify-content-between">
+                        <div class="bg-white">
+                            <h1 class="bg-white">Pick add-ons</h1>
+                            <p class="bg-white">Add-ons help enhance your gaming experience.</p>
+                        </div>
+    
+                        <div class="bg-transparent d-flex flex-column justify-content-start h-100">
+                                <div class="card w-100 aocd1 d-flex flex-row justify-content-start align-items-center mb-3" id="AddOnCard1">
+                                    <input class="bg-transparent m-4 w-0 inp1" type="checkbox" name="check" value="" id="flexCheckChecked1">
+                                    <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked1" id="lbl1">
+                                        <div class="d-flex bg-white flex-column justify-content-center">
+                                            <h1 class="fs-5 w-0 h-0 fw-bold bg-transparent" id="AddOn1">Online service</h1>
+                                            <p class="fs-6 w-0 h-0 text-secondary bg-transparent m-0">Access to multiplayer games</p>
+                                        </div>
+                                        <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center align-items-center" id="addOnamt1">+$1/mo</p>
+                                    </label>
+                                </div>
+                                <div class="card w-100 aocd1 d-flex flex-row justify-content-start align-items-center mb-3" id="AddOnCard2">
+                                    <input class="bg-transparent m-4 w-0 inp1" type="checkbox" value="" id="flexCheckChecked2">
+                                    <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked2" id="lbl2">
+                                        <div class="d-flex bg-white flex-column justify-content-center">
+                                            <h1 class="fs-5 fw-bold bg-transparent m-0" id="AddOn2">Larger storage</h1>
+                                            <p class="fs-6 text-secondary bg-transparent m-0">Extra 1TB of cloud save</p>
+                                        </div>
+                                        <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center align-items-center" id="addOnamt2">+$2/mo</p>
+                                    </label>
+                                </div>
+                                <div class="card w-100 aocd1 d-flex flex-row justify-content-start align-items-center mb-3" id="AddOnCard3">
+                                    <input class="bg-transparent m-4 w-0 inp1" type="checkbox" value="" id="flexCheckChecked3">
+                                    <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked3" id="lbl3">
+                                        <div class="d-flex flex-column bg-white justify-content-center">
+                                            <h1 class="fs-5 fw-bold bg-transparent m-0" id="AddOn3">Customizable Profile</h1>
+                                            <p class="fs-6 text-secondary bg-transparent m-0">Custom theme on your profile</p>
+                                        </div>
+                                        <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center align-items-center" id="addOnamt3">+$2/mo</p> 
+                                    </label>
+                                </div>
+                        </div>
+    
+                        
+    
+                        <div class="bg-white d-flex flex-row justify-content-between">
+                            <a href="./plan.html" class="text-decoration-none bg-transparent text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                            <a href="./Summary.html" class="btn btn-primary">Next Step</a>
+                        </div>
+    
+    
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="SM_AO_RS">
+        <div>
+            <img src="./assets/images/bg-sidebar-mobile.svg" alt="">
+            <div class="in-in-div1 d-flex justify-content-evenly bg-transparent">
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an1" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an2" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">2</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an3" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none">3</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an4" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>  
+                </div>
+            </div>
+        </div>
+        <div class="card personalinfo1 p-3 bg-transparent border border-0">
+            <div class="innerblock1 border border-0 rounded bg-white p-3 d-flex flex-column justify-content-between">
+                <div class="bg-white">
+                    <h1 class="bg-white">Pick add-ons</h1>
+                    <p class="bg-white">Add-ons help enhance your gaming experience.</p>
+                </div>
+
+                <div class="bg-transparent d-flex flex-column justify-content-start h-100">
+                        <div class="card aocd1 d-flex flex-row justify-content-start align-items-center mb-3 p-3" id="AddOnCard1_s">
+                            <input class="bg-transparent w-0 h-0 inp1" type="checkbox" value="" id="flexCheckChecked1_a">
+                            <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked1_a" id="lbl1_s">
+                                <div class="m-2 d-flex flex-column bg-white justify-content-center">
+                                    <h1 class="fS_h w-0 h-0 m-0 fw-bold bg-transparent" id="AddOn1_s">Online service</h1>
+                                    <p class="fS_p w-0 h-0 m-0 text-secondary bg-transparent">Access to multiplayer games</p>
+                                </div>
+                                <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center" id="addOnamt1_s">+$1/mo</p>
+
+                            </label>
+                        </div>
+                        <div class="card aocd1 d-flex flex-row justify-content-start align-items-center mb-3 p-3" id="AddOnCard2_s">
+                            <input class="bg-transparent w-0 h-0 inp1" type="checkbox" value="" id="flexCheckChecked2_a">
+                            <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked2_a" id="lbl2_s">
+                                <div class="m-2 d-flex flex-column bg-white justify-content-center">
+                                    <h1 class="fS_h w-0 h-0 m-0 fw-bold bg-transparent" id="AddOn2_s">Larger storage</h1>
+                                    <p class="fS_p w-0 h-0 m-0 text-secondary bg-transparent">Extra 1TB of cloud save</p>
+                                </div>
+                                <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center" id="addOnamt2_s">+$2/mo</p>
+
+                            </label>
+                        </div>
+                        <div class="card aocd1 d-flex flex-row justify-content-start align-items-center mb-3 p-3" id="AddOnCard3_s">
+                            <input class="bg-transparent w-0 h-0 inp1" type="checkbox" value="" id="flexCheckChecked3_a">
+                            <label class="bg-transparent w-100 h-100 d-flex flex-row justify-content-between mx-0" for="flexCheckChecked3_a" id="lbl3_s">
+                                <div class="m-2 d-flex flex-column  bg-white justify-content-center">
+                                    <h1 class="fS_h w-0 h-0 m-0 fw-bold bg-transparent" id="AddOn3_s">Customizable Profile</h1>
+                                    <p class="fS_p w-0 h-0 m-0 text-secondary bg-transparent">Custom theme on your profile</p>
+                                </div>
+                                <p class="bg-transparent w-25 h-100 d-flex flex-column justify-content-center" id="addOnamt3_s">+$2/mo</p>
+                            </label>
+                        </div>
+                </div>
+
+                
+
+                <div class="bg-white border-1 d-flex flex-row justify-content-between align-items-center NextPage_p p-3">
+                    <a href="./plan.html" class="text-decoration-none bg-transparent w-0 text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                    <a href="./Summary.html" class="btn btn-primary addOnbtn_s d-flex flex-row justify-content-center align-items-center">Next Step</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./addons.js"></script>
+    <!-- <script type="module" src="./index.js"></script> -->
+</body>
+</html>

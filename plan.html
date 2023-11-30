@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./plan.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+    <div class="LG_P_RS">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <section class="card w-75 d-flex flex-row justify-content-between align-items-center p-2">
+                <div class="w-25">
+                    <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+                    <div class="in-in-div d-flex flex-column justify-content-evenly bg-transparent">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an1" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 1</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">YOUR INFO</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an2" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold  bg-primary-subtle text-primary text-decoration-none">2</button>
+                            <div class="d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 2</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SELECT PLAN</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an3" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 3</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">ADD-ONS</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an4" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 4</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SUMMARY</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-3 mx-5 d-flex flex-column justify-content-center align-items-center personalinfoplan bg-white">
+                    <form action="./addOns.html" class="innerblock bg-transparent d-flex flex-column justify-content-between">
+                        <div class="bg-white">
+                            <h1 class="bg-white">Select your plan</h1>
+                            <p class="bg-white">You have the option of monthly or yearly billing.</p>
+                        </div>
+    
+                        <div class="d-flex flex-column justify-content-around bg-transparent h-100">
+                            <div class="d-flex flex-row justify-content-between align-items-center bg-transparent">
+                                <div class="card cd1 d-flex flex-column justify-content-around px-3" id="card1">
+                                    <img src="./assets/images/icon-arcade.svg" alt="" class="planimgicon bg-transparent">
+                                    <div class="bg-transparent">
+                                        <h1 class="fs-5 fw-bold bg-transparent" id="Arcadehead">Arcade</h1>
+                                        <p class="fs-6 text-secondary bg-transparent">$<span  id="val1" class="bg-transparent">9</span>/<span id="yeval1" class="bg-transparent">mo</span></p>
+                                        <p class="Free1 text-primary bg-transparent">2 months free</p>
+                                    </div>
+                                </div>
+                                <div class="card cd1 d-flex flex-column justify-content-around px-3" id="card2">
+                                    <img src="./assets/images/icon-advanced.svg" alt=""  class="planimgicon bg-transparent">
+                                    <div class="bg-transparent">
+                                        <h1 class="fs-5 fw-bold bg-transparent" id="Advancedhead">Advanced</h1>
+                                        <p class="fs-6 text-secondary bg-transparent">$<span id="val2" class="bg-transparent">12</span>/<span id="yeval2" class="bg-transparent">mo</span></p>
+                                        <p class="Free2 text-primary bg-transparent">2 months free</p>
+                                    </div>
+                                </div>
+                                <div class="card cd1 d-flex flex-column justify-content-around px-3" id="card3">
+                                    <img src="./assets/images/icon-pro.svg" alt=""  class="planimgicon bg-transparent">
+                                    <div class="bg-transparent">
+                                        <h1 class="fs-5 fw-bold bg-transparent" id="Prohead">Pro</h1>
+                                        <p class="fs-6 text-secondary bg-transparent">$<span id="val3" class="bg-transparent">15</span>/<span id="yeval3" class="bg-transparent">mo</span></p>
+                                        <p class="Free3 text-primary bg-transparent">2 months free</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="bg-primary-subtle-50 border border-none rounded d-flex justify-content-center align-items-center my-2">
+                                <p class="my-1 mx-2" id="month">Monthly</p>
+                                <div class="form-check form-switch m-3">
+                                    <input class="form-check-input" type="checkbox" role="switch" name="PlanRange" id="flexSwitchCheckDefault">
+                                </div>
+                                <p class="my-1 mx-2" id="yearly">Yearly</p>
+                            </div>
+                        </div>
+    
+                        
+    
+                        <div class="bg-white d-flex flex-row justify-content-between">
+                            <a href="./index.html" class="text-decoration-none bg-transparent text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                            <button class="btn btn-primary" onclick="button()">Next Step</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="SM_P_RS">
+        <div>
+            <img src="./assets/images/bg-sidebar-mobile.svg" alt="">
+            <div class="in-in-div d-flex justify-content-evenly bg-transparent">
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an1" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an2" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none">2</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an3" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an4" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="card border-0 personalinfoplan bg-transparent p-3">
+            <div class="card innerblock p-3">
+                <div class="bg-white">
+                    <h1 class="bg-white text-primary-emphasis fw-bold">Select your plan</h1>
+                    <p class="bg-white text-secondary">You have the option of monthly or yearly billing.</p>
+                </div>
+                <div class="d-flex flex-column justify-content-around h-100 bg-transparent">
+                    <div class="d-flex flex-column justify-content-evenly h-100 align-items-center bg-transparent">
+                        <div class="card cd1 d-flex flex-row justify-content-around px-3" id="card1_s">
+                            <img src="./assets/images/icon-arcade.svg" alt="" class="planimgicon bg-transparent">
+                            <div class="bg-transparent p-2">
+                                <h1 class="fs-5 fw-bold bg-transparent w-0" id="Arcadehead_s">Arcade</h1>
+                                <p class="fs-6 text-secondary bg-transparent">$<span  id="val1_s" class="bg-transparent">9</span>/<span id="yeval1_s" class="bg-transparent">mo</span></p>
+
+                            </div>
+                            <p class="Free1_s text-primary py-4 bg-transparent text-center h-100">2 months free</p>
+
+                        </div>
+                        <div class="card cd1 d-flex flex-row justify-content-around px-3" id="card2_s">
+                            <img src="./assets/images/icon-advanced.svg" alt=""  class="planimgicon bg-transparent">
+                            <div class="bg-transparent p-2">
+                                <h1 class="fs-5 fw-bold bg-transparent" id="Advancedhead_s">Advanced</h1>
+                                <p class="fs-6 text-secondary bg-transparent">$<span id="val2_s" class="bg-transparent">12</span>/<span id="yeval2_s" class="bg-transparent">mo</span></p>
+
+                            </div>
+                            <p class="Free2_s text-primary py-4 bg-transparent text-center h-100">2 months free</p>
+                            
+                        </div>
+                        <div class="card cd1 d-flex flex-row justify-content-around px-3" id="card3_s">
+                            <img src="./assets/images/icon-pro.svg" alt=""  class="planimgicon bg-transparent">
+                            <div class="bg-transparent p-2">
+                                <h1 class="fs-5 fw-bold bg-transparent" id="Prohead_s">Pro</h1>
+                                <p class="fs-6 text-secondary bg-transparent">$<span id="val3_s" class="bg-transparent">15</span>/<span id="yeval3_s" class="bg-transparent">mo</span></p>
+
+                            </div>
+                            <p class="Free3_s text-primary py-4 bg-transparent text-center h-100">2 months free</p>
+
+                        </div>
+                    </div>
+
+                    <div class="bg-primary-subtle-50 border border-none rounded d-flex justify-content-center align-items-center my-2">
+                        <p class="my-1 mx-4" id="month_s">Monthly</p>
+                        <div class="form-check form-switch m-3 ms-4">
+                            <input class="form-check-input" type="checkbox" role="switch" name="PlanRange" id="flexSwitchCheckDefault_s">
+                        </div>
+                        <p class="my-1 mx-0 me-3" id="yearly_s">Yearly</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="bg-white border-1 d-flex flex-row justify-content-between align-items-center NextPage_p p-3">
+                <a href="./index.html" class="text-decoration-none bg-transparent w-0 text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                <a href="./addOns.html" class="btn btn-primary addOnbtn_s d-flex flex-row justify-content-center align-items-center">Next Step</a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./plan.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finishing up</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Summary.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+    <div class="LG_SU_RS">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <section class="card w-75 d-flex flex-row justify-content-between align-items-center p-2">
+                <div class="w-25">
+                    <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+                    <div class="in-in-div1 d-flex flex-column justify-content-evenly bg-transparent">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an1" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 1</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">YOUR INFO</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an2" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold  bg-transparent text-white text-decoration-none">2</button>
+                            <div class="d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 2</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SELECT PLAN</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an3" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 3</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">ADD-ONS</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an4" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none">4</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 4</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SUMMARY</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-3 mx-5 d-flex flex-column justify-content-center align-items-center personalinfo1 bg-white">
+                    <div class="innerblock1 bg-transparent d-flex flex-column justify-content-evenly">
+                        <div class="bg-white">
+                            <h1 class="bg-white">Finishing</h1>
+                            <p class="bg-white">Double-check everything looks OK before confirming</p>
+                        </div>
+    
+                        <div class="bg-transparent d-flex flex-column justify-content-start h-auto">
+                            <div class="card">
+                                <div class="card-header cdh d-flex justify-content-between">
+                                    <div class="bg-transparent w-75 h-50 d-flex flex-column justify-content-between mx-0">
+                                        <h1 class="fs-5 w-0 h-0 fw-bold bg-transparent"><span id="planName">Arcade</span> <span id="planrange">(Monthly)</span></h1>
+                                        <a href="./plan.html" class="fs-6 w-0 h-0 text-secondary bg-transparent">Change</a>
+                                    </div>
+                                    <p class="bg-transparent w-0 h-0 d-flex flex-row justify-content-end align-items-center fw-bold">+$<span id="Cost">9</span>/<span id="Costrange">mo</span></p>
+                                </div>
+                                <div class="card-body cdh d-flex flex-column justify-content-between " id="parentcollection">
+                                    <div class="cdh " id="div1">
+                                        <p class="cdh" id="indiv1_1"></p>
+                                        <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-center" id="indiv1_2"></p>
+                                    </div>
+                                    <div class="cdh" id="div2">
+                                        <p class="cdh" id="indiv2_1"></p>
+                                        <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-center" id="indiv2_2"></p>
+                                    </div>
+                                    <div class="cdh" id="div3">
+                                        <p class="cdh" id="indiv3_1"></p>
+                                        <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-center" id="indiv3_2"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-transparent p-3 h-25 d-flex align-items-center justify-content-between">
+                                <p class="bg-transparent">Total (per month)</p>
+                                <p class="bg-transparent fs-4 text-primary w-0 h-0 d-flex flex-row justify-content-end align-items-center">+$<span class="bg-transparent" id="AddAmt"></span>/<span class="bg-transparent" id="AmtRange"></span></p>
+                            </div>
+                        </div>
+    
+                        
+                        <form action="./Conformation.html">
+                            <div class="bg-white d-flex flex-row justify-content-between">
+                                <a href="./addOns.html" class="text-decoration-none bg-transparent text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                                <input type="submit" value="Confirm" id="Confirmbtn" class="btn btn-primary">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="SM_SU_RS">
+        <div>
+            <img src="./assets/images/bg-sidebar-mobile.svg" alt="">
+            <div class="in-in-div1 d-flex justify-content-evenly bg-transparent">
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an1" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none active">1</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an2" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">2</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an3" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an4" class="anchors1 border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary  text-decoration-none">4</button>  
+                </div>
+            </div>
+        </div>
+        
+        <div class="card personalinfo1 bg-transparent p-3 bg-white border border-0">
+            <div class="innerblock1 border border-0 rounded bg-white p-3 d-flex flex-column justify-content-between">
+                <div class="bg-white">
+                    <h1 class="bg-white">Finishing</h1>
+                    <p class="bg-white">Double-check everything looks OK before confirming.</p>
+                </div>
+
+
+                <div class="bg-transparent d-flex flex-column justify-content-start h-100">
+                    <div class="card h-auto cdh">
+                        <div class="card-header bg-transparent w-100 d-flex justify-content-evenly">
+                            <div class="bg-transparent w-100 h-100 d-flex flex-column justify-content-between align-items-center">
+                                <h1 class="w-0 h-0 fw-bold bg-transparent fS_h m-0"><span id="planName_s">Arcade</span> <span id="planrange_s">(Monthly)</span></h1>
+                                <a href="./plan.html" class="w-0 h-0 text-secondary bg-transparent fS_p">Change</a>
+                            </div>
+                            <p class="bg-transparent w-25 h-100 d-flex flex-row justify-content-center align-items-end fw-bold">+$<span id="Cost_s">9</span>/<span id="Costrange_s">mo</span></p>
+                        </div>
+                        <div class="card-body cardbody bg-transparent w-100 d-flex flex-column justify-content-center" id="parentcollection_s">
+                            <div class="bg-transparent" id="div1_s">
+                                <p class="cdh" id="indiv1_1_s"></p>
+                                <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-end" id="indiv1_2_s"></p>
+                            </div>
+                            <div class="bg-transparent" id="div2_s">
+                                <p class="cdh" id="indiv2_1_s"></p>
+                                <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-end" id="indiv2_2_s"></p>
+                            </div>
+                            <div class="bg-transparent" id="div3_s">
+                                <p class="cdh" id="indiv3_1_s"></p>
+                                <p class="bg-transparent w-0 h-0 d-flex flex-column justify-content-end align-items-end" id="indiv3_2_s"></p>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="bg-transparent p-3 w-100 h-25 d-flex align-items-center justify-content-between align-items-center">
+                        <p class="bg-transparent w-100 p-0 m-0 fS_p ">Total (per month)</p>
+                        <p class="fw-bold p-0 m-0 ms-5 text-primary w-50 bg-transparent h-0 d-flex flex-row justify-content-end align-items-end fS_p">+$<span class="bg-transparent" id="AddAmt_s"></span>/<span class="bg-transparent" id="AmtRange_s"></span></p>
+                    </div>
+                </div>
+                
+
+                <form action="./Conformation.html" class="NextPage_p bg-white border-1 d-flex flex-row justify-content-between align-items-center p-3">
+                    <div class="bg-white d-flex flex-row justify-content-between">
+                        <a href="./addOns.html" class="text-decoration-none bg-transparent w-0 text-primary-50 d-flex flex-row align-items-center">Go Back</a>
+                        <input type="submit" value="Confirm" class="btn btn-primary addOnbtn_s d-flex flex-row justify-content-center align-items-center">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        
+    </div>
+    
+
+    
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./Summary.js"></script>
+</body>
+</html>

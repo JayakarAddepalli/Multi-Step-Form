@@ -1,0 +1,123 @@
+*{
+    background-color: rgb(234, 234, 255);
+}
+
+.cdh{
+    background-color: rgb(229, 229, 250);
+}
+
+.in-in-div1{
+    width: 12em;
+    height: 20em;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+
+}
+
+.personalinfo1{
+    width: 250vw;
+}
+
+.innerblock1{
+    width: 40vw;
+}
+
+.anchors1{
+    width: 40px;
+    height: 40px;
+}
+
+
+.SM_SU_RS{
+    display: none;
+}
+
+.LG_SU_RS{
+    display: block;
+}
+
+
+
+#div1, #div2, #div3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+@media only screen and (max-width:768px){
+
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgb(234, 234, 255);
+    }
+
+
+    .SM_SU_RS{
+        display: block;
+    }
+    
+    .LG_SU_RS{
+        display: none;
+    }
+
+    .innerblock1{
+        width:100%;
+        height: 60%;
+    }
+
+    .personalinfo1{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 11%;
+    }
+
+    #div1_s, #div2_s, #div3_s{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+    }
+
+    .in-in-div1{
+        width: 100vw;
+        height: 5em;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .anchors1{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .fS_h{
+        font-size: 16px;
+    }
+
+    .fS_p{
+        font-size: 18px;
+    }
+
+    .NextPage_p{
+        /* width: 100%; */
+        height: 80px;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .addOnbtn_s{
+        width: 150px;
+    }
+}

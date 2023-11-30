@@ -1,0 +1,128 @@
+*{
+    background-color: rgb(234, 234, 255);
+}
+
+
+.aocd1{
+    width: 600px;
+    height: 100px;
+    border: solid 1px rgb(206, 206, 206);
+}
+
+.inp1{
+    width: 20px;
+    height: 20px;
+}
+
+.innerblock1{
+    width: 40vw;
+}
+
+.personalinfo1{
+    width: 250vw;
+}
+
+.in-in-div1{
+    width: 12em;
+    height: 20em;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+
+}
+
+.anchors1{
+    width: 40px;
+    height: 40px;
+}
+
+.LG_AO_RS{
+    display: block;
+}
+
+.SM_AO_RS{
+    display: none;
+}
+
+
+
+@media only screen and (max-width:768px){
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgb(234, 234, 255);
+    }
+
+    .LG_AO_RS{
+        display: none;
+    }
+
+    .SM_AO_RS{
+        display: block;
+    }
+
+
+    .innerblock1{
+        width:100%;
+        height: 60%;
+    }
+
+    .personalinfo1{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 11%;
+    }
+    
+    .in-in-div1{
+        width: 100vw;
+        height: 5em;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .anchors1{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .aocd1{
+        width: 100%;
+        height: 80px;
+        border: solid 1px rgb(206, 206, 206);
+    }
+    
+    .inp1{
+        width: 20px;
+        height: 20px;
+    }
+
+    #AddOnCard1_a, #AddOnCard2_a{
+        border: solid 2px blue;
+    }
+
+    .fS_h{
+        font-size: 15px;
+    }
+
+    .fS_p{
+        font-size: 12px;
+    }
+
+    .NextPage_p{
+        /* width: 100%; */
+        height: 80px;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .addOnbtn_s{
+        width: 150px;
+    }
+}

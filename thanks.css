@@ -1,0 +1,89 @@
+*{
+    background-color: rgb(234, 234, 255);
+}
+
+.thanks{
+    width: 250vw;
+    height: 300px;
+}
+
+
+.in-in-div1{
+    width: 12em;
+    height: 20em;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+
+}
+
+.anchors1{
+    width: 40px;
+    height: 40px;
+}
+
+
+.SM_CN_RS{
+    display: none;
+}
+
+.LG_CN_RS{
+    display: block;
+}
+
+@media only screen and (max-width:768px){
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgb(234, 234, 255);
+    }
+
+    .SM_CN_RS{
+        display: block;
+    }
+    
+    .LG_CN_RS{
+        display: none;
+    }
+    
+    .innerblock1{
+        width:100%;
+        height: 60%;
+    }
+
+    .personalinfo1{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 13%;
+    }
+
+    .in-in-div1{
+        width: 100vw;
+        height: 5em;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .anchors1{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+
+    .thanks{
+        width: 100%;
+        height: 300px;
+    }
+
+    .thanks>img{
+        width: 20%;
+        height: 20%;
+    }
+
+}

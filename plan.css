@@ -1,0 +1,157 @@
+*{
+    background-color: rgb(234, 234, 255);
+
+}
+
+.innerblock{
+    width: 40vw;
+    height: 70vh;
+}
+
+.personalinfoplan{
+    width: 250vw;
+}
+
+.cd1{
+    width: 180px;
+    height: 220px;
+    border: solid 1px rgb(206, 206, 206);
+    
+}
+
+#card1{
+
+}
+
+.in-in-div{
+    width: 12em;
+    height: 20em;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+
+}
+
+.anchors{
+    width: 40px;
+    height: 40px;
+}
+
+.planimgicon{
+    width: 3em;
+}
+
+#month{
+    
+    color: blue;
+    
+}
+
+#yearly{
+    color: rgb(188, 188, 188);
+}
+
+.cd1:hover{
+    cursor: pointer;
+    border: solid 1px blue;
+}
+
+.SM_P_RS{
+    display: none;
+}
+
+.Free1, .Free2, .Free3{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .LG_P_RS{
+        display: none;
+    }
+
+    .SM_P_RS{
+        display: block;
+    }
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgb(234, 234, 255);
+
+    }
+
+    .personalinfoplan{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 11%;
+    }
+    
+    .innerblock{
+        width:100%;
+        height: 70%;
+    }
+
+    .cd1{
+        width: 100%;
+        height: 70px;
+        border: solid 1px rgb(206, 206, 206);
+    }
+    
+    #card1{
+
+    }
+
+    .in-in-div{
+        width: 100vw;
+        height: 5em;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .anchors{
+        width: 30px;
+        height: 30px;
+        
+    }
+
+    .planimgicon{
+        width: 3em;
+    }
+    
+    #month_s{
+    
+        color: blue;
+        
+    }
+    
+    #yearly_s{
+        color: rgb(188, 188, 188);
+    }
+    
+    
+    .cd1:hover{
+        cursor: pointer;
+        border: solid 1px blue;
+    }
+
+    .NextPage_p{
+        /* width: 100%; */
+        height: 80px;
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .addOnbtn_s{
+        width: 150px;
+    }
+
+    .Free1_s, .Free2_s, .Free3_s{
+        display: none;
+    }
+
+}

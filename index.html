@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal info</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+</head>
+<body>
+    <div class="LG_RS">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+            <section class="card w-75 d-flex flex-row justify-content-between align-items-center p-2">
+                <div class="w-25">
+                    <img src="./assets/images/bg-sidebar-desktop.svg" alt="">
+                    <div class="in-in-div d-flex flex-column justify-content-evenly bg-transparent">
+                        <div class="w-100 d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an1" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none active">1</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 1</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">YOUR INFO</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an2" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">2</button>
+                            <div class="d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 2</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SELECT PLAN</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an3" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 3</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">ADD-ONS</h1>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row align-items-center justify-content-start bg-transparent">
+                            <button id="an4" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>
+                            <div class=" d-flex flex-column justify-content-center bg-transparent mx-3">
+                                <p class="m-0 bg-transparent text-white-50">Step 4</p>
+                                <h1 class="fs-6 m-0 bg-transparent text-white">SUMMARY</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-3 mx-5 d-flex flex-column justify-content-center align-items-center personalinfo bg-white">
+                    <div class="innerblock bg-white">
+                        <div class="bg-white">
+                            <h1 class="bg-white">Personal info</h1>
+                            <p class="bg-white">Please provide your name, email address, and phone number.</p>
+                        </div>
+                        <form action="./plan.html" class="bg-white" id="Personal_la">
+                            <div class="bg-white">
+                                <label for="name" class="form-label bg-white">Name</label>
+                                <input type="text" class="form-control mb-3 p-2" id="name" name="UserName" placeholder="e.g. Stephen King" autocomplete="name" required>
+                            </div>
+                            <div class="bg-white">
+                                <label for="email" class="form-label bg-white">Email Address</label>
+                                <input type="email" class="form-control mb-3 p-2" id="email" name="UserEmail" placeholder="e.g. stephenking@lorem.com" autocomplete="email" required>
+                            </div>
+                            <div class="bg-white">
+                                <label for="number" class="form-label bg-white">Phone Number</label>
+                                <input type="tel" class="form-control mb-3 p-2" id="number" name="UserNumber" placeholder="e.g. +91 1234567890" autocomplete="mobile" pattern="[+][0-9]{2} [0-9]{10}" minlength="14" maxlength="14" required>
+                            </div>
+                            <div class="my-5 bg-white d-flex flex-row justify-content-end">
+                                <input type="submit" value="Next Step" id="Submitbtn" class="btn btn-primary">
+                            </div> 
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="SM_RS">
+        <div>
+            <img src="./assets/images/bg-sidebar-mobile.svg" alt="">
+            <div class="in-in-div d-flex justify-content-evenly bg-transparent">
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an1" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-primary-subtle text-primary text-decoration-none active">1</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an2" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">2</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an3" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">3</button>
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-center bg-transparent">
+                    <button id="an4" class="anchors border border-1 rounded-circle d-flex align-items-center justify-content-center fw-bold bg-transparent text-white text-decoration-none">4</button>  
+                </div>
+            </div>
+        </div>
+        <div class="card bg-transparent border-0 personalinfo p-3">
+            <div class="card innerblock p-3 bg-white">
+                <div class="bg-white">
+                    <h1 class="bg-white text-primary-emphasis fw-bold">Personal info</h1>
+                    <p class="bg-white text-secondary">Please provide your name, email address, and phone number.</p>
+                </div>
+                <form action="./plan.html" class="bg-transparent h-100" id="Personal_sma">
+                    <div class="bg-white">
+                        <label for="name_s" class="form-label bg-white text-primary-emphasis">Name</label>
+                        <input type="text" class="form-control mb-3 p-2" id="name_s" name="UserName" placeholder="e.g. Stephen King" autocomplete="name" required>
+                    </div>
+                    <div class="bg-white">
+                        <label for="email_s" class="form-label bg-white text-primary-emphasis">Email Address</label>
+                        <input type="email" class="form-control mb-3 p-2" id="email_s" name="UserEmail" placeholder="e.g. stephenking@lorem.com" autocomplete="email" required>
+                    </div>
+                    <div class="bg-white">
+                        <label for="number_s" class="form-label bg-white text-primary-emphasis">Phone Number</label>
+                        <input type="tel" class="form-control mb-3 p-2" id="number_s" name="UserNumber" placeholder="e.g. +91 1234567890" autocomplete="mobile" pattern="[+][0-9]{2} [0-9]{10}" minlength="14" maxlength="14" required>
+                    </div>
+
+                    
+                    <div class="bg-white border-1 submitbtn d-flex justify-content-end NextPage_p p-3">
+                        <input type="submit" value="Next Step" id="Submitbtn_s" class="btn btn-primary mt-1 p-1">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
