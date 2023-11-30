@@ -6,9 +6,6 @@ This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and B
 
 
 
-![Mobile-resolution](https://github.com/Jayakarjjjjjjjjjj/Multi-Step-Form/assets/110006483/966e0ef4-8aef-439d-80c6-8015bc7fec90)
-
-
 
 <ul>
   <li>You can able to complete each step of the sequence</li>
