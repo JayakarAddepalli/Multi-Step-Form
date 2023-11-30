@@ -2,7 +2,7 @@
 
 This is the Multi-Step-Form created by using HTML5, CSS3, JavaScript, JSON and Bootstrap. It is fully responsive in any devices.
 
-<img src=''>
+![Multi-step-form]('./Respo')
 
 <ul>
   <li>You can able to complete each step of the sequence</li>
